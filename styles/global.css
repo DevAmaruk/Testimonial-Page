@@ -1,0 +1,81 @@
+/* FONTS */
+
+:root {
+  /* COLORS */
+  --light-white: #fafaf9;
+  --pure-white: #ffffff;
+  --black: #18181b;
+  --dark-grey: #52525a;
+
+  /* SEMANTIC TOKENS */
+  --page-background: var(--light-white);
+  --card-background: var(--pure-white);
+  --heading-text: var(--black);
+  --primary-text: var(--dark-grey);
+}
+
+/* RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+header,
+footer,
+main,
+p,
+h1,
+h2,
+h3,
+img {
+  margin: 0;
+}
+
+img,
+svg {
+  display: block;
+}
+
+body {
+  width: 100%;
+  min-height: 100dvh;
+  font-family: "Sora", sans-serif;
+  font-size: 1.25rem;
+  background-color: var(--page-background);
+}
+
+/* TEXT PRESETS */
+
+.sora-body,
+.sora-body-2,
+.sora-heading,
+.sora-list-item {
+  letter-spacing: -0.01em;
+}
+
+.sora-body,
+.sora-body-2,
+.sora-list-item {
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.sora-heading {
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+
+.sora-body {
+  font-size: 1.25rem;
+}
+
+.sora-body-2 {
+  font-size: 1rem;
+}
+
+.sora-list-item {
+  font-size: 0.875rem;
+}
